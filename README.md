@@ -155,7 +155,7 @@ Rate Limit enforced immediately.
 
 
 ## [Geocodio](https://www.geocod.io/)
-- US and Canada Only
+Not tested -> US and Canada Only. 
 
 
 ## [Geoapify](https://www.geoapify.com/geocoding-api)
@@ -181,3 +181,9 @@ They also have [an AMI](https://aws.amazon.com/marketplace/pp/prodview-oyheuvytb
 - $295: 5M/mth then $0.08 per 1000
 
 No apparent rate limit
+
+
+# Todo:
+- Put results in Readme
+- Put detailed results in another MD file.
+- Preprocess addresses with Libpostal and use structured geocoding as a comparison.
