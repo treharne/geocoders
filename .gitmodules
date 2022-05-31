@@ -1,0 +1,3 @@
+[submodule "libpostal-rest-docker"]
+	path = libpostal-rest-docker
+	url = https://github.com/johnlonganecker/libpostal-rest-docker
