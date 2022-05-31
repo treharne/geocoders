@@ -145,7 +145,7 @@ Enforces rate limit from the first second!
 Rate Limit: 5 req/sec -> enforced immediately.
 
 
-# [GeocodeEarth](https://geocode.earth/)
+## [GeocodeEarth](https://geocode.earth/)
 - 14 Day Free Trial: 1k reqs, 10 reqs/sec
 - US$100: 150k reqs/mth, 10 reqs/sec
 - US$200: 400k reqs/mth, 10 reqs/sec
