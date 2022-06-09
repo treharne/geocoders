@@ -3,6 +3,28 @@ We want to find the best geocoder API for our SaaS platform, [Tarot Routing](htt
 
 Our users can upload a list of addresses interactively (e.g. from an Excel file) or via and API connection.
 
+# Results
+
+```json
+ Geocoder      | Duration   |   Good |   Imprecise |   Bad |   Error
+---------------+------------+--------+-------------+-------+---------
+ Google        | 2.1s       |     40 |           2 |     3 |       0
+ Here          | 2.4s       |     34 |           4 |     6 |       1
+ TomTom        | 11.7s      |     34 |           4 |     6 |       1
+ ESRI          | 3.3s       |     33 |           0 |     9 |       3
+ Mapbox        | 2.0s       |     32 |           4 |     9 |       0
+ OpenCage      | 2.4s       |     29 |           5 |    11 |       0
+ Geoapify      | 4.5s       |     26 |           4 |    13 |       2
+ PositionStack | 4.0s       |     24 |           2 |    17 |       2
+ GeocodeEarth  | 7.5s       |     24 |           3 |    16 |       2
+ Mapquest      | 3.1s       |     23 |           6 |    16 |       0
+ LocationIQ    | 47.3s      |     20 |           5 |    17 |       3
+ Maptiler      | 1.4s       |     19 |           1 |    19 |       6
+ GeocodeXYZ    | 74.1s      |     18 |           1 |    23 |       3
+```
+
+# Criteria
+
 
 We have three main criteria for Geocoding APIs:
 1. Quality
@@ -80,9 +102,14 @@ There is a surprising amount of nuance around what you're allowed to do with the
 
 This usually depends on the provider's business model, and the licencing agreement in place with the underlying geographic data provider ([OSM](https://www.openstreetmap.org/), local government entity, local private entity, global data aggregator, etc.)
 
+I haven't made any notes based on this criteria, but I will certainly accept *unbiased* PRs!
+
 ## Bonus Criteria: Uptime
 - How often is the Geocoder API unavailable?
 - How important is it for you that the geocoder is available?
+
+I haven't made any notes based on this criteria, but I will certainly accept *unbiased* PRs!
+
 
 # Pricing and Limits Summary
 
@@ -203,7 +230,5 @@ No apparent rate limit
 
 
 # Todo:
-- Put results in Readme
-- Put detailed results in another MD file.
 - Preprocess addresses with Libpostal and use structured geocoding as a comparison.
 - Consider other factors: Open-ness of data, rights to storage, uptime of providers.

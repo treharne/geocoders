@@ -307,11 +307,8 @@ class Maptiler(Geocoder):
         }
 
 
-geocoders = [
-    PositionStack(), Google(), OpenCage(), Here(), 
-    Mapbox(), Mapquest(), LocationIQ(), TomTom(), 
-    Geoapify(), GeocodeEarth(), ESRI(), GeocodeXYZ(),
-    Maptiler()
-]
 
-geocoders = [Maptiler()]
+geocoders = [
+    cls for cls in locals().values()
+    if isinstance(cls, Geocoder)
+]
