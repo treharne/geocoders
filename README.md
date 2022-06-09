@@ -1,4 +1,4 @@
-# Comparing Geocoding APIs
+# Which Geocoder API is the best?
 We want to find the best geocoder API for our SaaS platform, [Tarot Routing](https://www.tarotanalytics.com).
 
 Our users can upload a list of addresses interactively (e.g. from an Excel file) or via and API connection.
@@ -10,7 +10,6 @@ We have three main criteria for Geocoding APIs:
 3. Price
 
 
-
 ## Quality
 **Dirty Addresses**  
 The addresses can be poor quality. They often:
@@ -20,10 +19,16 @@ The addresses can be poor quality. They often:
 - don't include a country or other regional identifier
 
 **Bad Geocoders**  
-Additionally, the geocode itself can be poor quality. This often happens if the geocoding provider doesn't have sufficient depth of data:
-- a road doesn't exist in their map
-- street numbers are not present/updated/accurate
+Additionally, the geocode itself can be poor quality.
+
+This can happen for two reasons:
+1. Poor address matching/lookup. 
+    - This is a huuuuge topic. You can learn more in this super interesting article about the [Creation of Libpostal](https://www.mapzen.com/blog/inside-libpostal/)
+2. The provider doesn't have sufficient depth of data:
+    - a road doesn't exist in their map
+    - street numbers are not present/updated/accurate
 or it does not know how to correctly interpret the address, so it ignores some of the information contained in it.
+
 
 **Quality Benchmark**  
 To measure quality, I've curated a list of addresses which humans can unambiguously point to on a map, but that we've seen some geocoders have problems with.
@@ -64,6 +69,20 @@ Different Geocoders price based on different factors
 
 As a result, it's difficult to compare prices directly, but I will try to provide a useful, concise summary of each service's pricing.
 
+
+## Bonus Criteria: Openness of Data
+There is a surprising amount of nuance around what you're allowed to do with the latitudes and longitudes once you get your hands on them.
+- Are you required to display the lat/lon on a map?
+  - Does it have to be on a specifically branded map?
+- Are you allowed to store the lat/lon in your own database?
+  - For how long?
+- Are you allowed to use the lat/lon for commercial purposes?
+
+This usually depends on the provider's business model, and the licencing agreement in place with the underlying geographic data provider ([OSM](https://www.openstreetmap.org/), local government entity, local private entity, global data aggregator, etc.)
+
+## Bonus Criteria: Uptime
+- How often is the Geocoder API unavailable?
+- How important is it for you that the geocoder is available?
 
 # Pricing and Limits Summary
 
@@ -187,3 +206,4 @@ No apparent rate limit
 - Put results in Readme
 - Put detailed results in another MD file.
 - Preprocess addresses with Libpostal and use structured geocoding as a comparison.
+- Consider other factors: Open-ness of data, rights to storage, uptime of providers.

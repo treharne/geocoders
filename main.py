@@ -10,7 +10,7 @@ from tabulate import tabulate
 
 if __name__ == '__main__':
 
-    with open('addresses.csv') as f:
+    with open('data/addresses.csv') as f:
         reader = csv.DictReader(f)
         location_map = {row['address']: {'lat': float(row['lat']), 'lon': float(row['lon'])} for row in reader}
         addresses = list(location_map.keys())

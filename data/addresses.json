@@ -1,0 +1,495 @@
+[
+  {
+    "address": "Unit 209, Pine Close, Newhaven BN9 0DH",
+    "lat": "50.800109",
+    "lon": "0.055496",
+    "parsed": {
+      "unit": "unit 209",
+      "road": "pine close",
+      "city": "newhaven",
+      "postcode": "bn9 0dh"
+    }
+  },
+  {
+    "address": "Unit 209, Pine Close, Newhaven BN9 0DH, GBR",
+    "lat": "50.800109",
+    "lon": "0.055496",
+    "parsed": {
+      "unit": "unit 209",
+      "road": "pine close",
+      "city": "newhaven",
+      "postcode": "bn9 0dh",
+      "country": "gbr"
+    }
+  },
+  {
+    "address": "Pine Close, Newhaven BN9 0DH",
+    "lat": "50.800109",
+    "lon": "0.055496",
+    "parsed": {
+      "road": "pine close",
+      "city": "newhaven",
+      "postcode": "bn9 0dh"
+    }
+  },
+  {
+    "address": "Pine Close, Newhaven BN9 0DH, GBR",
+    "lat": "50.800109",
+    "lon": "0.055496",
+    "parsed": {
+      "road": "pine close",
+      "city": "newhaven",
+      "postcode": "bn9 0dh",
+      "country": "gbr"
+    }
+  },
+  {
+    "address": "51 George Lane, London, England, E18 1LN, GBR",
+    "lat": "51.591142",
+    "lon": "0.028960",
+    "parsed": {
+      "house_number": "51",
+      "road": "george lane",
+      "city": "london",
+      "state": "england",
+      "postcode": "e18 1ln",
+      "country": "gbr"
+    }
+  },
+  {
+    "address": "51 George Lane, London, England, E18 1, GBR",
+    "lat": "51.591142",
+    "lon": "0.028960",
+    "parsed": {
+      "house_number": "51",
+      "road": "george lane",
+      "city": "london",
+      "state": "england",
+      "postcode": "e18 1",
+      "country": "gbr"
+    }
+  },
+  {
+    "address": "14 A. van Leeuwenhoekweg, 2408 AM, Alphen a d Rijn, Nederland",
+    "lat": "52.128643",
+    "lon": "4.645307",
+    "parsed": {
+      "house_number": "2408",
+      "road": "am alphen a",
+      "city": "d rijn",
+      "country": "nederland"
+    }
+  },
+  {
+    "address": "A, Van Leeuwenhoekweg 14, 2408 AM Alphen aan den Rijn, Netherlands",
+    "lat": "52.128643",
+    "lon": "4.645307",
+    "parsed": {
+      "road": "am",
+      "house_number": "14",
+      "postcode": "2408",
+      "city": "alphen aan den rijn",
+      "country": "netherlands"
+    }
+  },
+  {
+    "address": "Reiver Garage Services, Duns TD11",
+    "lat": "55.782252",
+    "lon": "-2.338105",
+    "parsed": {
+      "house": "td11",
+      "city": "duns"
+    }
+  },
+  {
+    "address": "Reiver Garage Services, Duns TD11, GBR",
+    "lat": "55.782252",
+    "lon": "-2.338105",
+    "parsed": {
+      "house": "reiver garage services",
+      "city": "duns",
+      "postcode": "td11",
+      "country": "gbr"
+    }
+  },
+  {
+    "address": "Agricar Ltd, Stirling",
+    "lat": "56.140603",
+    "lon": "-3.984313",
+    "parsed": {
+      "house": "agricar ltd",
+      "city": "stirling"
+    }
+  },
+  {
+    "address": "Agricar Ltd, Stirling, United Kingdom",
+    "lat": "56.140603",
+    "lon": "-3.984313",
+    "parsed": {
+      "house": "agricar ltd",
+      "city": "stirling",
+      "country": "united kingdom"
+    }
+  },
+  {
+    "address": "KAAPSTADWEG 36 D 1047 AMSTERDAM",
+    "lat": "52.404891",
+    "lon": "4.739006",
+    "parsed": {
+      "road": "kaapstadweg",
+      "house_number": "36 d",
+      "postcode": "1047",
+      "city": "amsterdam"
+    }
+  },
+  {
+    "address": "KAAPSTADWEG 36 D 1047 AMSTERDAM, Nederland",
+    "lat": "52.404891",
+    "lon": "4.739006",
+    "parsed": {
+      "road": "kaapstadweg",
+      "house_number": "36 d",
+      "postcode": "1047",
+      "city": "amsterdam",
+      "country": "nederland"
+    }
+  },
+  {
+    "address": "Witte Paal 329",
+    "lat": "52.778129",
+    "lon": "4.815768",
+    "parsed": {
+      "road": "witte paal",
+      "house_number": "329"
+    }
+  },
+  {
+    "address": "Witte Paal 329, Nederland",
+    "lat": "52.778129",
+    "lon": "4.815768",
+    "parsed": {
+      "road": "witte paal",
+      "postcode": "329",
+      "country": "nederland"
+    }
+  },
+  {
+    "address": "Slotsweg 7",
+    "lat": "52.202146",
+    "lon": "6.632251",
+    "parsed": {
+      "road": "slotsweg",
+      "house_number": "7"
+    }
+  },
+  {
+    "address": "Slotsweg 7, Nederland",
+    "lat": "52.202146",
+    "lon": "6.632251",
+    "parsed": {
+      "road": "slotsweg",
+      "house_number": "7",
+      "city": "nederland"
+    }
+  },
+  {
+    "address": "Aalsvoort 1",
+    "lat": "52.168644",
+    "lon": "6.392294",
+    "parsed": {
+      "road": "aalsvoort",
+      "house_number": "1"
+    }
+  },
+  {
+    "address": "Aalsvoort 1, Nederland",
+    "lat": "52.168644",
+    "lon": "6.392294",
+    "parsed": {
+      "road": "aalsvoort",
+      "house_number": "1",
+      "city": "nederland"
+    }
+  },
+  {
+    "address": "6 DOLFIJN 1601 ENKHUIZEN",
+    "lat": "52.695506",
+    "lon": "5.271827",
+    "parsed": {
+      "house_number": "6",
+      "road": "dolfijn",
+      "postcode": "1601",
+      "city": "enkhuizen"
+    }
+  },
+  {
+    "address": "6 DOLFIJN 1601 ENKHUIZEN, Nederland",
+    "lat": "52.695506",
+    "lon": "5.271827",
+    "parsed": {
+      "house_number": "6",
+      "road": "dolfijn",
+      "postcode": "1601",
+      "city": "enkhuizen",
+      "country": "nederland"
+    }
+  },
+  {
+    "address": "De Huchtstraat 5 1327 Almere",
+    "lat": "52.359500",
+    "lon": "5.258741",
+    "parsed": {
+      "road": "de huchtstraat",
+      "house_number": "5",
+      "postcode": "1327",
+      "city": "almere"
+    }
+  },
+  {
+    "address": "De Huchtstraat 5 1327 Almere, Nederland",
+    "lat": "52.359500",
+    "lon": "5.258741",
+    "parsed": {
+      "road": "de huchtstraat",
+      "house_number": "5",
+      "postcode": "1327",
+      "city": "almere",
+      "country": "nederland"
+    }
+  },
+  {
+    "address": "DONAUWEG 11 1011 AMSTERDAM",
+    "lat": "52.394527",
+    "lon": "4.838175",
+    "parsed": {
+      "road": "donauweg",
+      "house_number": "11",
+      "postcode": "1011",
+      "city": "amsterdam"
+    }
+  },
+  {
+    "address": "DONAUWEG 11 1011 AMSTERDAM, Nederland",
+    "lat": "52.394527",
+    "lon": "4.838175",
+    "parsed": {
+      "road": "donauweg",
+      "house_number": "11",
+      "postcode": "1011",
+      "city": "amsterdam",
+      "country": "nederland"
+    }
+  },
+  {
+    "address": "STUARTWEG 10 4131 VIANEN",
+    "lat": "51.984047",
+    "lon": "5.099642",
+    "parsed": {
+      "road": "stuartweg",
+      "house_number": "10",
+      "postcode": "4131",
+      "city": "vianen"
+    }
+  },
+  {
+    "address": "STUARTWEG 10 4131 VIANEN, Nederland",
+    "lat": "51.984047",
+    "lon": "5.099642",
+    "parsed": {
+      "road": "stuartweg",
+      "house_number": "10",
+      "postcode": "4131",
+      "city": "vianen",
+      "country": "nederland"
+    }
+  },
+  {
+    "address": "Oude Middenweg 237, Leidshendam, NLD",
+    "lat": "52.075059",
+    "lon": "4.403634",
+    "parsed": {
+      "road": "oude middenweg",
+      "house_number": "237",
+      "city": "leidshendam",
+      "country": "nld"
+    }
+  },
+  {
+    "address": "Plantage 12, Oude Wetering, NLD",
+    "lat": "52.207195",
+    "lon": "4.647462",
+    "parsed": {
+      "road": "plantage",
+      "house_number": "12",
+      "city": "oude wetering",
+      "country": "nld"
+    }
+  },
+  {
+    "address": "HOBARTS GARAGE ##, KILCOY, QLD, Australia",
+    "lat": "-26.943609",
+    "lon": "152.565254",
+    "parsed": {
+      "house": "hobarts garage ##",
+      "city": "kilcoy",
+      "state": "qld",
+      "country": "australia"
+    }
+  },
+  {
+    "address": "2/97 ARCHER STREET, WOODFORD, QLD, Australia",
+    "lat": "-26.953620",
+    "lon": "152.777805",
+    "parsed": {
+      "house_number": "2/97",
+      "road": "archer street",
+      "city": "woodford",
+      "state": "qld",
+      "country": "australia"
+    }
+  },
+  {
+    "address": "0685 - BP ARCHERFIELD COMMERCIAL, ARCHERFIELD, QLD, Australia",
+    "lat": "-27.565294",
+    "lon": "152.998437",
+    "parsed": {
+      "postcode": "0685",
+      "po_box": "bp archerfield",
+      "suburb": "commercial archerfield",
+      "state": "qld",
+      "country": "australia"
+    }
+  },
+  {
+    "address": "S480323 MAZDA H/O - SOUTHPORT MAZDA, ARUNDEL, QLD, Australia",
+    "lat": "27.967878",
+    "lon": "153.409699",
+    "parsed": {
+      "house": "s480323 mazda h/o southport mazda",
+      "suburb": "arundel",
+      "state": "qld",
+      "country": "australia"
+    }
+  },
+  {
+    "address": "SY1 3TJ, GBR",
+    "lat": "52.745344",
+    "lon": "-2.739563",
+    "parsed": {
+      "postcode": "sy1 3tj",
+      "country": "gbr"
+    }
+  },
+  {
+    "address": "B11 2PP, GBR",
+    "lat": "52.461279",
+    "lon": "-1.855262",
+    "parsed": {
+      "postcode": "b11 2pp",
+      "country": "gbr"
+    }
+  },
+  {
+    "address": "MK11 3EW DELIVER 12/4, GBR",
+    "lat": "52.045579",
+    "lon": "-0.823664",
+    "parsed": {
+      "house": "mk11 3ew deliver",
+      "house_number": "12/4",
+      "country": "gbr"
+    }
+  },
+  {
+    "address": "West Midlands DY9 7ND, GBR",
+    "lat": "52.453528",
+    "lon": "-2.130114",
+    "parsed": {
+      "state_district": "west midlands",
+      "postcode": "dy9 7nd",
+      "country": "gbr"
+    }
+  },
+  {
+    "address": "Unit 17D, Gainsborough Trading Estate, Rufford Rd, Stourbridge DY9 7ND, United Kingdom",
+    "lat": "52.453528",
+    "lon": "-2.130114",
+    "parsed": {
+      "unit": "unit 17d",
+      "house_number": "gainsborough trading estate",
+      "road": "rufford rd",
+      "city": "stourbridge",
+      "postcode": "dy9 7nd",
+      "country": "united kingdom"
+    }
+  },
+  {
+    "address": "MAIN ST & KATH FITZGERALD DVE, SAMFORD, QLD, Australia",
+    "lat": "-27.372564",
+    "lon": "152.886251",
+    "parsed": {
+      "road": "main st & kath fitzgerald dve",
+      "city": "samford",
+      "state": "qld",
+      "country": "australia"
+    }
+  },
+  {
+    "address": "CNR NOOSA DRIVE & SUNSHINE BEACH RD, NOOSA HEADS, QLD, Australia",
+    "lat": "-26.396400",
+    "lon": "153.089263",
+    "parsed": {
+      "road": "cnr noosa drive & sunshine beach rd",
+      "city": "noosa heads",
+      "state": "qld",
+      "country": "australia"
+    }
+  },
+  {
+    "address": "LEVEL 3 - 44 MUSK AVENUE, KELVIN GROVE, QLD, Australia",
+    "lat": "-27.453366",
+    "lon": "153.013238",
+    "parsed": {
+      "level": "level 3",
+      "house_number": "44",
+      "road": "musk avenue",
+      "suburb": "kelvin grove",
+      "state": "qld",
+      "country": "australia"
+    }
+  },
+  {
+    "address": "421 ANNERLEY ROAD DEL TUES - FRI, ANNERLEY, QLD, Australia",
+    "lat": "-27.508276",
+    "lon": "153.032396",
+    "parsed": {
+      "house_number": "421",
+      "road": "annerley road del tues fri",
+      "suburb": "annerley",
+      "state": "qld",
+      "country": "australia"
+    }
+  },
+  {
+    "address": "Centre Commercial Des Raguenets, 95210 St Gratien, France",
+    "lat": "48.961582",
+    "lon": "2.284699",
+    "parsed": {
+      "house": "centre commercial des raguenets",
+      "postcode": "95210",
+      "city": "st gratien",
+      "country": "france"
+    }
+  },
+  {
+    "address": "6 T Place Rollon, 95770 Saint Clair Sur Epte, France",
+    "lat": "49.206672",
+    "lon": "1.679010",
+    "parsed": {
+      "house_number": "6",
+      "road": "t place rollon",
+      "postcode": "95770",
+      "city": "saint clair sur epte",
+      "country": "france"
+    }
+  }
+]
