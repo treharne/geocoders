@@ -22,6 +22,7 @@ Our users can upload a list of addresses interactively (e.g. from an Excel file)
  Maptiler      | 1.4s       |     19 |           1 |    19 |       6
  GeocodeXYZ    | 74.1s      |     18 |           1 |    23 |       3
 ```
+Detailed results available in [results.json](data/results.json)
 
 # Criteria
 

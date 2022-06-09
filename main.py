@@ -133,6 +133,7 @@ def update_readme(summary_table):
         summary_table,
         '```'
         '',
+        'Detailed results available in [results.json](data/results.json)',
         '',
     ]
 
