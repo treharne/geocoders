@@ -5,7 +5,7 @@ Our users can upload a list of addresses interactively (e.g. from an Excel file)
 
 # Results
 
-```json
+```
  Geocoder      | Duration   |   Good |   Imprecise |   Bad |   Error
 ---------------+------------+--------+-------------+-------+---------
  Google        | 2.1s       |     40 |           2 |     3 |       0
